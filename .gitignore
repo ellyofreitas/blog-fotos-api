@@ -1,3 +1,5 @@
+#Laravel
+
 /node_modules
 /public/hot
 /public/storage
@@ -9,3 +11,50 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+
+#Angular
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+resources/assets/meuapp/dist
+resources/assets/meuapp/tmp
+resources/assets/meuapp/out-tsc
+
+# dependencies
+resources/assets/meuapp/node_modules
+
+# profiling files
+resources/assets/meuapp/chrome-profiler-events.json
+resources/assets/meuapp/speed-measure-plugin.json
+
+# IDEs and editors
+resources/assets/meuapp/.idea
+resources/assets/meuapp/.project
+resources/assets/meuapp/.classpath
+resources/assets/meuapp/.c9/
+resources/assets/meuapp/*.launch
+resources/assets/meuapp/.settings/
+resources/assets/meuapp/*.sublime-workspace
+
+# IDE - VSCode
+resources/assets/meuapp/.vscode/*
+resources/assets/meuapp/!.vscode/settings.json
+resources/assets/meuapp/!.vscode/tasks.json
+resources/assets/meuapp/!.vscode/launch.json
+resources/assets/meuapp/!.vscode/extensions.json
+resources/assets/meuapp/.history/*
+
+# misc
+resources/assets/meuapp/.sass-cache
+resources/assets/meuapp/connect.lock
+resources/assets/meuapp/coverage
+resources/assets/meuapp/libpeerconnection.log
+resources/assets/meuapp/npm-debug.log
+resources/assets/meuapp/yarn-error.log
+resources/assets/meuapp/testem.log
+resources/assets/meuapp/typings
+
+# System Files
+resources/assets/meuapp/.DS_Store
+resources/assets/meuapp/Thumbs.db
